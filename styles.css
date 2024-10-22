@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+}
+
+div{
+    width: 300px;
+    height: 150px;
+}
+
+.red{
+    background-image: url("/img/img-1.jfif");
+    background-color: red;
+    grid-column-start:1;
+    background-repeat: no-repeat ;
+
+}
+
+.blue{
+    background-image: url("/img/img-2.jfif");
+    background-color: blue;
+
+}
+
+.green{
+    background-image: url("/img/img-3.jfif");
+    background-color: green;
+
+}
+
+.yellow{
+    background-image: url("/img/img-4.jfif");
+    background-color: yellow;
+
+}
+
+.pink{
+    background-image: url("/img/img-5.jfif");
+    background-color: pink;
+
+}
+
+.brown{
+    background-image: url("img/img-6.jfif");
+    background-color: brown;
+
+}
+
+.salmon{
+    background-color: url("");
+    background-color: salmon;
+
+}
+
+.silver{
+    background-color: url("");
+    background-color: silver;
+
+}
+
+.orange{
+    background-color: url("");
+    background-color: orange;
+
+}
